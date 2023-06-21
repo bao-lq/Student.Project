@@ -1,0 +1,70 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant Dashboard</title>
+    <link rel="stylesheet" href="./Css/JKindex.css">
+</head>
+<body style="background-color: rgba(16, 6, 30, 1);">
+    <div class="container">
+        <div class="logo">
+            <a href="" class="logo">GANDIsbr</a>
+        </div>
+        <div class="menu">
+            <div class="menu_list">
+                <a href="" class="nevi">Top artists</a>
+                <a href="" class="nevi">Marketplace</a>
+                <a href="" class="nevi">About us</a>
+                <a href="" class="nevi">Get Started</a>
+                <a href="" class="btn"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>--> 
+ 
+ 
+ 
+ 
+  
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+:root{
+    --modified-black: rgba(16, 6, 30, 1);
+    --modified-red: rgb(252, 71, 84, 0.91);
+}
+
+*{
+    font-family: 'Roboto';
+    font-style: normal;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.container .logo{
+    width: 103px;
+    height: 33px;
+    top: 58px;
+    left: 62px;
+    color: #FFFFFF;
+}
+
+.container .logo:hover{
+    color: red;
+}
+
+.container .menu a{
+    color: #FFFFFF;
+}

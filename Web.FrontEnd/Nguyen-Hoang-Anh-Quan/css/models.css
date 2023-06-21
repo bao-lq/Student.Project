@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Fredoka+One&family=Fuzzy+Bubbles&family=Libre+Baskerville:ital@1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&family=Titillium+Web:wght@300&family=Varela+Round&display=swap');
+
+*{
+    font-family: 'Roboto', normal;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+.header {
+    overflow: hidden;
+    background-color:black
+}
+.header a {
+    display: flex;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 20px 18px;
+    text-decoration:solid;
+    font-size: 20px;
+    line-height: 47px;
+}
+
+.text {
+    position:relative;
+    bottom: 50px;
+    right: 6px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 25px;
+}
