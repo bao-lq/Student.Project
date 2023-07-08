@@ -1,7 +1,7 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    background-image: url('assets/jungle.jpg');
+    background-image: url('assets/better\ mars.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -32,4 +32,80 @@ p {
 
 #two {
     text-align: left;
+}
+
+ul, p {
+    font-size: 25px;
+    text-align: left;
+    color: aliceblue;
+    list-style-type: none;
+}
+
+.hello {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 55px;
+}
+
+.ball {
+    margin-left: 69px;
+}
+
+.math {
+    color: chartreuse;
+}
+
+.english {
+    color: red;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: left;
+}
+
+b {
+    line-height: 40px;
+    font-weight: bolder;
+    display: inline-block;
+    border: 5px solid;
+    border-color: rgb(255, 255, 0);
+    padding: 15px;
+    border-radius: 0px 35%;
+    box-sizing: border-box;
+    background-color: chocolate;
+    text-align: left;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-image: url('assets/random.jpg');
+    align-items: center;
+}
+
+.menu2 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu2>li>a{
+    margin-right: 100px;
+    color: yellow;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.menu2>li>a:hover{
+    background-color: rgba(0, 255, 255, 0.555);
+    padding: 15px;
+}
+
+#menu-hr{
+    max-width: 80%;
+    margin-bottom: 50px;
 }
