@@ -84,12 +84,14 @@ b {
     justify-content: space-around;
     background-image: url('assets/random.jpg');
     align-items: center;
+    position: sticky;
+    top: 0px;
 }
 
 .menu2 {
     display: flex;
     justify-content: space-around;
-
+    
 }
 
 .menu2>li>a{
@@ -108,4 +110,15 @@ b {
 #menu-hr{
     max-width: 80%;
     margin-bottom: 50px;
+}
+
+.future_songs {
+    display: none;
+    position: absolute;
+    padding: 15px 15px 15px 20px;
+    background-image: url('assets/random.jpg');
+}
+
+.menu2>.f:hover>.future_songs {
+    display: block;
 }
