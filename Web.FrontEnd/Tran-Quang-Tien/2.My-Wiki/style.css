@@ -1,0 +1,78 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-nav {
+    background-color:aquamarine;
+    min-width: 20vw;
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-input {
+    min-width: 20vw;
+    text-align: left;
+    padding-left: 20px;
+    right: 10px;
+}
+
+.first-input::placeholder {
+    text-align: left;
+}
+
+.search .icon {
+    position: relative;
+    left: 22px;
+}
+
+.bx-search-alt-2 {
+    font-size: 30px;
+    margin-right: 15px;
+}
+.bot-nav{
+    background-color:lightcoral;
+    min-width: 100vw;
+    min-height: 10vh;
+}
+
+.banner {
+    background-color: aqua;
+    max-width: 70vw;
+    min-height: 20vh;
+}
+
+main {
+    background-color: lightgreen;
+    max-width: 70vw;
+    min-height: 50vh;
+}
+
+.left-content {
+    background-color: orange;
+    min-width: 50%;
+    min-height: 40vh;
+}
+
+.right-content {
+    background-color: yellow;
+    min-width: 50%;
+    min-height: 40vh;
+}
+
+footer {
+    background-color: aqua;
+    min-height: 10vh;
+}
+
