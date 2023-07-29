@@ -138,25 +138,51 @@ ul {
 }
 
 main {
-    background-color: lightgreen;
     max-width: 70vw;
     min-height: 50vh;
 }
 
-.left-content {
-    background-color: orange;
-    min-width: 50%;
-    min-height: 40vh;
+main .content {
+    margin-top: 0.5em;
+    align-items: baseline;
 }
 
-.right-content {
-    background-color: yellow;
-    min-width: 50%;
+.left-content {
+    margin-right: 1em;
+}
+
+.left-content, .right-content {
+    max-width: 50%;
     min-height: 40vh;
+    padding: 1em;
+    border: 1px solid #a3b0bf;
+    background-color: #f5fffa;
+}
+
+.left-content h1, .right-content h1 {
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: left;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #a3bfb1;
+    background-color: #cef2e0;
+}
+
+.left-content img {
+    float: left;
+    margin: 0 2em 1.5em 0;
+}
+
+.right-content img {
+    float: right;
+}
+
+.left-content p, .right-content p {
+    text-align: justify;
 }
 
 footer {
-    background-color: aqua;
     min-height: 10vh;
 }
 
