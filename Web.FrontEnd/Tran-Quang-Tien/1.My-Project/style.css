@@ -1,124 +1,157 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+* {
+    font-family: Verdana;
+    font-size: 20px;
+    margin: 0px auto;
+    padding: 0px;
     text-align: center;
-    background-image: url('assets/better\ mars.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-
 }
 
-h2 {
-    color: red;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(0, 204, 255);
-    line-height: 40px;
-    font-weight: bolder;
-    display: inline-block;
-    border: 5px solid;
-    border-color: rgb(153, 0, 145);
-    padding: 15px;
-    border-radius: 0px 35%;
-    box-sizing: border-box;
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+nav {
+    background-color: white;
+    max-width: 100vw;
+    min-height: 10vh;
+    text-align: center;
+    position: sticky;
+    top: 10px;
+}
+
+icon {
+    margin-left: 20px;
+}
+
+.bx-menu {
+    font-size: 30px;
+    margin-right: 15px;
+    font-style: normal;
 }
 
 p {
+    font-size: 15px;
+}
+
+.active {
+    padding: 4px;
+}
+
+.active:hover {
+    background-color: rgba(128, 128, 128, 0.144);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.bx-dots-vertical-rounded {
+    position: relative;
+    top: 2px;
+}
+
+.active2 {
+    font-size: 20px;
+    position: relative;
+    left: -41px;
+    top: 1px;
+}
+
+input::placeholder, .flex-container{
+    font-size: 18px;
+    font-style: italic;
+}
+
+input {
     text-align: left;
 }
 
-#one {
-    text-align: left;
-    background-color: rgba(0, 255, 255, 0.55);
+search_bar input{
+    border-radius: 0 1em 1em 0;
+    border: 2px solid rgba(128, 128, 128, 0.842);
+    outline: none;
 }
 
-#two {
-    text-align: left;
+search_bar input:first-child {
+    border-radius: 1em 0 0 1em;
+    border: 2px solid rgba(128, 128, 128, 0.842);
+    padding-left: 15px;
 }
 
-ul, p {
-    font-size: 25px;
-    text-align: left;
-    color: aliceblue;
+.search_icon {
+    left: 15px;
+}
+
+main {
+    background-color: blue;
+    max-width: 80vw;
+    min-height: 70vh;
+}
+
+footer {
+    background-color: chartreuse;
+    max-width: 100vw;
+    min-height: 20vh;
+}
+
+.list {
     list-style-type: none;
-}
-
-.hello {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    margin-bottom: 55px;
-}
-
-.ball {
-    margin-left: 69px;
-}
-
-.math {
-    color: chartreuse;
-}
-
-.english {
-    color: red;
-}
-
-h1 {
-    color: aliceblue;
-    text-align: left;
-}
-
-b {
-    line-height: 40px;
-    font-weight: bolder;
-    display: inline-block;
-    border: 5px solid;
-    border-color: rgb(255, 255, 0);
-    padding: 15px;
-    border-radius: 0px 35%;
-    box-sizing: border-box;
-    background-color: chocolate;
-    text-align: left;
-}
-
-.menu {
-    display: flex;
-    justify-content: space-around;
-    background-image: url('assets/random.jpg');
-    align-items: center;
-    position: sticky;
-    top: 0px;
-}
-
-.menu2 {
-    display: flex;
-    justify-content: space-around;
-    
-}
-
-.menu2>li>a{
-    margin-right: 100px;
-    color: yellow;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 15px;
-}
-
-.menu2>li>a:hover{
-    background-color: rgba(0, 255, 255, 0.555);
-    padding: 15px;
-}
-
-#menu-hr{
-    max-width: 80%;
-    margin-bottom: 50px;
-}
-
-.future_songs {
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+    background-color: white;
+    padding: 10px 0 15px;
     display: none;
-    position: absolute;
-    padding: 15px 15px 15px 20px;
-    background-image: url('assets/random.jpg');
+    position: fixed;
 }
 
-.menu2>.f:hover>.future_songs {
+.active:hover .list {
     display: block;
+}
+
+.list li {
+    text-align: left;
+    margin: 0px 20px;
+    padding: 10px 0 10px;
+}
+
+.list>li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    left: 5px;
+}
+
+.list>li:hover {
+    text-decoration: underline;
+}
+
+.menu-icon {
+    position: relative;
+    top: 3px;
+    left: -3px;
+}
+
+.sign-up {
+    font-size: 15px;
+    padding: 8px 0 8px;
+    border: 1px solid gray;
+    color: rgb(0, 4, 255);
+    background-color: white;
+    border-radius: 1em ;
+    cursor: pointer;
+}
+
+.bx-user-circle {
+    font-size: 25px;
+    color: rgb(0, 4, 255);
+    position: relative;
+    top: 5px;
+    left: 42px;
+    cursor: pointer;
+}
+
+.sign-up:hover {
+    background-color: rgba(0, 0, 255, 0.185);
 }
