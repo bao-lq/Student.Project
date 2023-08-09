@@ -6,6 +6,10 @@
     text-align: center;
 }
 
+body {
+    background-color: rgb(39,39,39);
+}
+
 .flex-container {
     display: flex;
     justify-content: center;
@@ -14,12 +18,12 @@
 }
 
 nav {
-    background-color: white;
     max-width: 100vw;
     min-height: 10vh;
     text-align: center;
     position: sticky;
-    top: 10px;
+    top: 0px;
+    background-color: rgb(39,39,39);
 }
 
 icon {
@@ -30,10 +34,7 @@ icon {
     font-size: 30px;
     margin-right: 15px;
     font-style: normal;
-}
-
-p {
-    font-size: 15px;
+    color: white;
 }
 
 .active {
@@ -49,6 +50,7 @@ p {
 .bx-dots-vertical-rounded {
     position: relative;
     top: 2px;
+    color: white;
 }
 
 .active2 {
@@ -83,10 +85,14 @@ search_bar input:first-child {
     left: 15px;
 }
 
+.bx-search {
+    color: white;
+} 
+
 main {
-    background-color: blue;
-    max-width: 80vw;
-    min-height: 70vh;
+    margin-right: 10px;
+    min-height: 700vh;
+    margin-top: 1em;
 }
 
 footer {
@@ -150,8 +156,86 @@ footer {
     top: 5px;
     left: 42px;
     cursor: pointer;
+    background-color: white;
 }
 
 .sign-up:hover {
     background-color: rgba(0, 0, 255, 0.185);
+}
+
+banner {
+    background: none;
+    margin: 0px;
+}
+
+.top-banner {
+    font-family: Calibri;
+    font-size: 16px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 12px 15px 12px 15px;
+    border-radius: 1em;
+}
+
+.div-main {
+    align-items: baseline;
+    background-color: rgb(39,39,39);
+    justify-content: flex-start;
+}
+
+.yt-top {
+    position: fixed; 
+    top: 4em;
+    left: 40em;
+}
+
+.top-banner:hover {
+    background-color: rgba(0, 0, 0, 0.585);
+    cursor: pointer;
+}
+
+.videos {
+    margin-top: 4em;
+}
+
+.videos>ul {
+    list-style-type: none;
+    text-align: left;
+    align-items: baseline;
+}
+
+.videos>ul>li {
+    background-color: rgb(39, 39, 39);
+    text-align: left;
+    margin-right: 2em;
+}
+
+.image {
+    background-color: black;
+    border-radius: 1em;
+    border: none;
+
+}
+
+.yt-user {
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+.vid-title {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 12px;
+    margin-top: 5px;
+    font-style: normal;
+    color: white;
+
+}
+
+.extra-stuff {
+    color: #aaa;
+    text-align: left;
+    padding-left: 4em;
+    font-style: normal;
 }
